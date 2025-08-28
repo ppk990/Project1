@@ -3,58 +3,59 @@
     "id": 1,
     "name": "Pizza",
     "price": 199 ,
-    "image": "images/PIZZA1.jpeg"
+    "image": "PIZZA1.jpeg"
   },
   {
     "id": 2,
     "name": "Bevrages",
     "price": 79,
-    "image":"images/cc.webp"
+    "image":"cc.webp"
   },
   {
     "id": 3,
     "name": "Combos",
     "price": 150,
-    "image": "images/combos.jpg"
+    "image": "combos.jpg"
   },
   {
     "id": 4,
     "name": "biryani",
     "price": 220,
-    "image": "images/biryani.webp"
+    "image": "biryani.webp"
   },
   {
     "id": 5,
     "name": "brownie",
     "price": 110,
-    "image": "images/brownie.webp"
+    "image": "brownie.webp"
   },
   {
     "id": 6,
     "name": "Chicken pasta",
     "price": 180,
-    "image": "images/PASTA1.webp"
+    "image": "PASTA1.webp"
   },
   {
     "id": 7,
     "name": "Nonveg combos with pasta",
     "price": 180,
-    "image": "images/pastanonveg.webp"
+    "image": "pastanonveg.webp"
   },
   {
     "id": 8,
     "name": "veg Manchurian",
     "price": 200,
-    "image": "images/Veg-Manchurian-FI-1.jpg"
+    "image": "Veg-Manchurian-FI-1.jpg"
   },
   {
     "id": 9,
     "name": "Noodles",
     "price": 160,
-    "image": "images/hakka1.webp"
+    "image": "hakka1.webp"
   }
 
   
 
 
 ]
+
