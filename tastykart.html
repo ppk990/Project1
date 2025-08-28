@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodies - Order Hygenic,Stay Healthy</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Foodies -Order Hygenic,Stay Healthy🍔</h1>
+    <div id="alertBox" class="alert d-none" role="alert"></div>
+    <div class="row" id="menuContainer"></div>
+    <div id="loginSection" class="mb-4">
+  <h3>👤 User Login</h3>
+  
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" class="form-control" placeholder="Enter username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" class="form-control" placeholder="Enter password">
+  </div>
+  <button class="btn btn-primary" onclick="loginUser()">Login</button>
+</div>
+
+<div id="userInfo" class="mb-4 d-none">
+  <h5>Welcome, <span id="userDisplayName"></span>!</h5>
+  <button class="btn btn-sm btn-danger" onclick="logoutUser()">Logout</button>
+</div>
+
+    <h3 class="mt-5">🛒 Your Cart</h3>
+    <ul id="cartList" class="list-group mb-4"></ul>
+<div id="checkoutSection"></div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
